@@ -1,0 +1,75 @@
+https://youtu.be/9QUvkMP6Kt8
+
+Demo: Skills. 
+Developed app: recieving data (articles) from my WordPess Site throw API
+Use: Retrofit, Moshi, Glide . RecyclerView and Fragments.
+
+
+I created website on WordPress - Techno News
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/I%20created%20website%20on%20WordPress%20-%20Techno%20News.jpg
+----
+Website can transmit data via the http api using the JSON format
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/Website%20can%20transmit%20data%20via%20the%20http%20api%20using%20the%20JSON%20format.jpg
+----
+I developed an Android application that receives data through an api
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/Ive%20developed%20an%20Android%20application%20that%20receives%20data%20through%20an%20api.jpg
+----
+I used libraries Retofit, Moshi, Glide
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/I%20used%20libraries%20Retofit%20Moshi%20Glide.jpg
+----
+I used RecyclerView to group all articles vertically and to use slide
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/I%20used%20RecyclerView%20to%20group%20all%20to%20group%20all%20articles%20vertically%20and%20to%20use%20slide.jpg
+----
+When you click on the article, it will open completely
+When you click on back button , The list of articles load again
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/When%20you%20click%20on%20the%20article%20it%20will%20open%20completely.jpg
+----
+I used fragments when developing
+MainActivity.kt call AllArticleFragment 
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/MainActivity.jpg
+----
+AllArticleFragment.kt load data throw API, сall recyclerView, onClickListiner - using bundle () - transmit data, and call FullArticleFragment
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/AllArticleFragment.jpg
+----
+FullArticleFragment.kt recieve data and insert them to views, with Glide load image. Button onClickListener to return to list of articles
+----
+file:///D:/4Sites/Pet-Projects/Android-Exchange-data-test-dmitry-usov/Presentation/FullArticleFragment.jpg
+----
+============================================
+Used literatures and other info sources:
+How to Build Android Apps with Kotlin: A hands-on guide to developing, testing, and publishing your first apps with Android
+by Alex Forrester
+Head First Android Development, 3rd Edition - by Dawn Griffiths, David Griffiths
+
+Kotlin: Using Fragments and the Back Stack
+https://www.devrazor.com/post/kotlin-using-fragments-and-the-back-stack
+
+https://guides.codepath.com/android/Displaying-Images-with-the-Glide-Library
+
+How to pass data between fragments using Bundles in Android Studio | Kotlin
+https://www.youtube.com/watch?v=ougoYqlPYeY
+
+How to open new Fragment From Fragment by Button click in Kotlin | Android Studio | Nested Fragment
+https://youtu.be/U3Km_HgbQWw?t=605
+
+Recyclerview in Fragment Android Studio Tutorial || Recyclerview || Fragment || Kotlin
+https://www.youtube.com/watch?v=5mdV1hLbXzo
+
+https://stackoverflow.com/
+https://kotlinlang.org/
+https://developer.android.com/guide/fragments
+
+
+
+
+
+
+
